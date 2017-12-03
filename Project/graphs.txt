@@ -1,0 +1,33 @@
+epochs 	Accuracy	Loss	Execution time
+1		43.82		2.2580	166 minutes		
+2		87.04		0.4357  190 minutes
+3		93.16		0.2212	249 minutes
+4		95.51		0.1310	299 minutes
+5		97.02		0.1015	346 minutes
+
+
+
+Model 			Training Accuracy 	Robustness		Code Complexity		Training time		Testing time
+---------------------------------------------------------------------------------------------------------------------------------------
+Contour Based		n/a				low				low					n/a					moderate
+model
+
+HoG features and 	73.86%			moderate		moderate			moderate(~10mins)	low
+linear SVM	
+
+CNN 				97.02			high			high				very high			moderate
+
+
+
+Number of epochs = 1
+Batch Size		Accuracy		Loss		Execution time
+------------------------------------------------------------------
+8				2.5%			3.5978			102 minutes
+16				18.45%			2.6323			83 minutes
+32				43.82%			2.2580			76 minutes
+64				36.73%			2.4736			118 minutes
+128				30.54%			2.4167			90 minutes
+
+
+
+
